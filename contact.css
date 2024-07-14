@@ -1,0 +1,263 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    display: grid;
+
+}
+
+header{
+    background-color: rgb(236, 233, 233);
+    height: 5vh;
+    display: flex;
+    
+
+}
+#main{
+    display: grid;
+    grid-template-columns: 0.5fr 0.7fr 1fr 0.5fr;
+    grid-template-rows: 80px 80px 430px 270px;
+}
+#main div{
+    border:solid 1px;
+}
+#logo{
+    grid-column: 2;
+    
+}
+#nav{
+    grid-column: 3/6;
+}
+#menu{
+    grid-row: 2/4;
+    grid-column: 2;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#busca{
+    grid-column: 3/6;
+    grid-row: 2;
+   align-items: center;
+}
+#banner{
+    grid-column: 3/6;
+    grid-row: 3;
+    background-image: url(banner.jpg);
+}
+#prod1{
+    grid-column: 2;
+    grid-row: 4;
+}
+#prod2{
+ grid-column: 3;
+ grid-row: 4;
+}
+#prod3{
+    grid-column:4;
+    grid-row: 4;
+}
+#prod4{
+    grid-row: 4;
+    grid-column: 3;
+}
+#span{
+    background-color: rgba(127,173,57,255);
+    font-size: larger;
+    text-align: center;
+    color: white;
+    align-items: center;
+    padding: 0;
+    
+   
+    
+    transition: 0.5s;
+}
+#icone{
+    padding-top: 0px;
+    width: 25px;
+    height: 25px;
+    
+ 
+}
+svg{
+    height: 25px;
+    width: 25px;
+    display: flex;
+   align-items: center;
+}
+
+
+.svg1{
+    height: 25px;
+    width: 25px;
+    display: flex;
+   align-items: center;
+   
+}
+
+.alldp{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    gap: 50px;
+}
+ul{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+
+h5{
+    display: flex;
+}
+
+#bandeira{
+    width: 40px;
+    height: 20px;
+}
+#header{
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+} 
+.vazio{
+    width: 230px; 
+}
+.vazio1{
+    width: 100px;
+}
+.vazio2
+{
+    width: 300px;
+}
+.vazio3
+{
+    width: 50px;
+}
+.vazio4
+{
+    width: 40px;
+}
+.vazioIcones{
+    width: 10px;
+}
+.icones{
+    width: 15px;
+    height: 15px;
+}
+.nav-botoes{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+    text-decoration: none;
+    color:black;
+}
+.nav{
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none; 
+}
+
+.nav-botoes:hover{
+color: rgba(127,173,57,255);
+transition: 0.1s;
+}
+#preco{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding-right: 300px;
+}
+#espaco{
+    width:100px;
+}
+button{
+    background-color: rgba(127,173,57,255);
+    font-size:x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: aliceblue;
+    text-align: center;
+}
+
+#shop{
+    color: white;
+    text-decoration:solid;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+#btn_banner{
+    height: 50px ;
+    margin-top: 10px;
+    width: 120px;
+    text-decoration: none;
+}
+#banner_letters{
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#fruit_fresh{
+   color: rgba(127,173,57,255);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+}
+#free_pickup{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(129, 129, 129);
+}
+#vegetable{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#pesquisa_allctgrs svg{
+
+    width: 15px;
+    height:15px;
+    transform: rotate(180deg);
+   text-align: center;
+   display: flex;
+    
+}
+#seta{
+    width: 15px;
+    height:20px;
+    margin-left: 120px;
+    
+    
+}
+#pesquisa_allctgrs{
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    width: 110px;
+    margin-left: 10px;
+    
+}
+#img_cat{
+    padding-left: 270px;
+}
+.divisoes{
+    position: absolute;
+    right: 0;
+    top: 14px;
+    height: 20px;
+    width: 1px;
+    background: #000000;
+    opacity: 0.1;
+    content: "";
+}
+
+#oq_precisa{
+     color: #9e9e9e;
+    margin-bottom: 100px;
+}
